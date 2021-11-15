@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="https://lakshman-natours.herokuapp.com/"><img src="https://github.com/lgope/Natours/blob/master/public/img/logo-green-round.png" alt="Natours" width="200"></a>
+  <a href="https://yaatri.herokuapp.com/"><img src="https://github.com/HarshKhandelwal101/Yaatri/blob/master/public/img/logo-green-round.png" alt="Yaatri" width="200"></a>
   <br>
   Natours
   <br>
@@ -24,7 +24,7 @@
 </p>
 
 ## Deployed Version
-Live demo (Feel free to visit) 👉 : https://lakshman-natours.herokuapp.com/
+Live demo (Feel free to visit) 👉 : https://yaatri.herokuapp.com/
 
 
 ## Key Features
@@ -66,7 +66,7 @@ Live demo (Feel free to visit) 👉 : https://lakshman-natours.herokuapp.com/
 * Search for tours that you want to book
 * Book a tour
 * Proceed to the payment checkout page
-* Enter the card details (Test Mood):
+* Enter the card details (Test Mode):
   ```
   - Card No. : 4242 4242 4242 4242
   - Expiry date: 02 / 22
@@ -98,13 +98,13 @@ Check [Natours API Documentation](https://documenter.getpostman.com/view/8689170
 
 <b> API Features: </b>
 
-Tours List 👉 https://lakshman-natours.herokuapp.com/api/v1/tours
+Tours List 👉 https://yaatri.herokuapp.com/api/v1/tours
 
-Tours State 👉 https://lakshman-natours.herokuapp.com/api/v1/tours/tour-stats
+Tours State 👉 https://yaatri.herokuapp.com/api/v1/tours/tour-stats
 
-Get Top 5 Cheap Tours 👉 https://lakshman-natours.herokuapp.com/api/v1/tours/top-5-cheap
+Get Top 5 Cheap Tours 👉 https://yaatri.herokuapp.com/api/v1/tours/top-5-cheap
 
-Get Tours Within Radius 👉 https://lakshman-natours.herokuapp.com/api/v1/tours/tours-within/200/center/34.098453,-118.096327/unit/mi
+Get Tours Within Radius 👉 https://yaatri.herokuapp.com/api/v1/tours/tours-within/200/center/34.098453,-118.096327/unit/mi
 
 
 
@@ -121,10 +121,7 @@ parcel build ./public/js/index.js --out-dir ./public/js --out-file bundle.js
 git push heroku master
 heroku open
 ```
-You can also changed your website url by running this command:
-```
-heroku apps:rename natours-users
-```
+
 
 
 ## Build With
@@ -173,7 +170,7 @@ eslint-plugin-import eslint-plugin-jsx-a11y  eslint-plugin-react --save-dev
 
 
 ## Known Bugs
-Feel free to email me at lakshman.gope2@gmail.com if you run into any issues or have questions, ideas or concerns.
+Feel free to email me at khandelwalharsh492@gmail.com if you run into any issues or have questions, ideas or concerns.
 Please enjoy and feel free to share your opinion, constructive criticism, or comments about my work. Thank you! 🙂
 
 ## Future Updates
