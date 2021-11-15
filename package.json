@@ -1,0 +1,48 @@
+{
+  "name": "yaatri",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "start:prod": "set NODE_ENV=production&&nodemon server.js",
+    "debug": "ndb server.js",
+    "watch:js": "parcel watch ./public/js/index.js --out-dir ./public/js --out-file bundle.js",
+    "build:js": "parcel watch ./public/js/index.js --out-dir ./public/js --out-file bundle.js"
+  },
+  "author": "harsh",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "axios": "^0.24.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^7.0.0",
+    "express": "^4.17.1",
+    "express-mongo-sanitize": "^1.1.0",
+    "express-rate-limit": "^3.5.0",
+    "helmet": "^3.6.0",
+    "hpp": "^0.2.3",
+    "html-to-text": "^8.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.9",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.3",
+    "nodemailer": "^6.7.0",
+    "pug": "^2.0.3",
+    "sharp": "^0.29.2",
+    "slugify": "^1.6.1",
+    "stripe": "^7.63.1",
+    "validator": "^10.11.0",
+    "xss-clean": "^0.1.1"
+  },
+  "devDependencies": {
+    "@types/stripe": "^8.0.417",
+    "parcel-bundler": "^1.12.3"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  }
+}
