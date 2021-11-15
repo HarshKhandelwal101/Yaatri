@@ -61,8 +61,9 @@ exports.webhookCheckout = (req, res, next) => {
   }
 
   if (event.type === 'checkout.session.completed')
-    createBookingCheckout(event.data.object);
-
+    { console.log('WE are here!');
+      createBookingCheckout(event.data.object);}
+   console.log('We are here 2!');
   res.status(200).json({ received: true });
 };
 
