@@ -2,7 +2,7 @@
   <br>
   <a href="https://yaatri.herokuapp.com/"><img src="https://github.com/HarshKhandelwal101/Yaatri/blob/master/public/img/logo-green-round.png" alt="Yaatri" width="200"></a>
   <br>
-  Natours
+ Yaatri
   <br>
 </h1>
 
